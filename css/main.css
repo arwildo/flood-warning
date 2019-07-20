@@ -111,10 +111,6 @@ a {
 .contentRight {
 	flex: 0 0 45%;
 }
-.hand {
-	width: 420px;
-	margin-top: -55px;
-}
 .contentLeft h1,
 .contentLeft p,
 .contentLeft a {
