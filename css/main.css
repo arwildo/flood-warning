@@ -132,5 +132,67 @@ a {
 	bottom: 90px;
 	right: 15%;
 }
+.date h1,
+.date img,
+.time h1,
+.time img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.date img,
+.time img {
+	margin-bottom: 10px;
+	width: 36px;
+}
+.date p,
+.time p {
+	display: block;
+	margin-left: 44px;
+}
 
 /*----- Groups -----*/
+.groupsWrapper {
+	width: 88%;
+	margin: auto;
+}
+.groupsContent {
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+.contentLeft img,
+.contentLeft h1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contentLeft img {
+	margin-bottom: 10px;
+	width: 36px;
+}
+.groupsContent > .contentLeft p {
+	margin-left: 50px;
+}
+.groupsImage {
+	width: 500px;
+	margin-top: -50px;
+}
+
+/*----- Footer -----*/
+.footer {
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+.footer p {
+	color: #454d4e;
+	display: inline-block;
+}
+.pagesRight {
+	float: right;
+}
+.pagesRight p {
+	margin-left: 25px;
+}
