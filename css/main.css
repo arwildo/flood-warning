@@ -196,3 +196,11 @@ a {
 .pagesRight p {
 	margin-left: 25px;
 }
+.footer a {
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	opacity: 0.8;
+	text-decoration: none;
+	color: #454d4e;
+}
