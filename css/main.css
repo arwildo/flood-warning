@@ -1,25 +1,136 @@
 /*----- Global -----*/
+@font-face {
+	src: url(../fonts/CircularStd-Medium.ttf);
+	font-family: CircularStd;
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html {
+	font-family: CircularStd, sans-serif;
+}
+.landing {
+	background-image: url(../images/bg_01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px;
+	overflow-x: hidden;
+}
+.features {
+	background-image: url(../images/bg_02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px;
+	position: relative;
+}
+.groups {
+	background-image: url(../images/bg_03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px;
+	position: relative;
+}
 
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+a {
+	font-size: 16px;
+}
 
-
+.btnOne {
+	border: white 2px solid;
+	border-radius: 100px;
+	padding: 0.6em 1.75em;
+}
+.btnTwo {
+	background-color: #1f2122;
+	border-radius: 100px;
+	padding: 0.6em 1.75em;
+	display: block;
+	width: 160px;
+	margin-top: 40px;
+	text-align: center;
+}
 /*----- Landing -----*/
-
-
+.nav {
+	padding-top: 3em;
+}
+.pages {
+	float: right;
+	text-align: right;
+}
+.pages a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+.logo {
+	width: 160px;
+	vertical-align: middle;
+}
+.landingWrapper {
+	width: 88%;
+	margin: auto;
+}
+.landingContent {
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+.contentLeft {
+	flex: 0 0 55%;
+}
+.contentRight {
+	flex: 0 0 45%;
+}
+.hand {
+	width: 420px;
+	margin-top: -55px;
+}
+.contentLeft h1,
+.contentLeft p,
+.contentLeft a {
+	color: white;
+	text-decoration: none;
+}
 
 /*----- Features -----*/
-
-
+.date {
+	position: absolute;
+	top: 150px;
+	left: 11%;
+}
+.time {
+	position: absolute;
+	bottom: 90px;
+	right: 15%;
+}
 
 /*----- Groups -----*/
-
-
-
-
-
-
-
-
-
-
-
-
