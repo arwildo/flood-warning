@@ -117,7 +117,9 @@ a {
 	color: white;
 	text-decoration: none;
 }
-
+.contentRight {
+	margin-left: -50px;
+}
 /*----- Features -----*/
 .server {
 	position: absolute;
@@ -144,9 +146,16 @@ a {
 .server p,
 .dot p {
 	display: block;
-	margin-left: 44px;
+	margin-left: 38px;
 }
-
+.dot i {
+	color: #1e8ef5;
+	margin-right: 5px;
+}
+.server i {
+	color: #1e8ef5;
+	margin-right: 5px;
+}
 /*----- Groups -----*/
 .groupsWrapper {
 	width: 88%;
@@ -173,7 +182,10 @@ a {
 	width: 500px;
 	margin-top: 30px;
 }
-
+.contentLeft i {
+	color: #1e8ef5;
+	margin-right: 5px;
+}
 /*----- Footer -----*/
 .footer {
 	width: 83%;
