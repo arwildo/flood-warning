@@ -27,7 +27,7 @@ html {
 	overflow-x: hidden;
 }
 .features {
-	background-image: url(../images/bg_04.png);
+	background-image: url(../images/bg_02.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -119,30 +119,30 @@ a {
 }
 
 /*----- Features -----*/
-.date {
+.server {
 	position: absolute;
 	top: 130px;
-	left: 6%;
+	left: 8%;
 }
-.time {
+.dot {
 	position: absolute;
 	bottom: 30px;
-	right: 3%;
+	right: 2%;
 }
-.date h1,
-.date img,
-.time h1,
-.time img {
+.server h1,
+.server img,
+.dot h1,
+.dot img {
 	display: inline-block;
 	vertical-align: middle;
 }
-.date img,
-.time img {
+.server img,
+.dot img {
 	margin-bottom: 10px;
 	width: 36px;
 }
-.date p,
-.time p {
+.server p,
+.dot p {
 	display: block;
 	margin-left: 44px;
 }
