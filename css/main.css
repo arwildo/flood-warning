@@ -123,15 +123,13 @@ a {
 .contentRight ul {
 	display: inline-block;
 	list-style: none;
-	color: white;
+	color: #454d4e;
 	font-size: 15px;
-	font-weight: 50;
 	margin-bottom: 20px;
-	opacity: 0.2;
 	text-align: center;
 }
 #ketua {
-	margin-left: 18px;
+	margin-left: 19px;
 }
 #anggota1 {
 	margin-left: 72px;
@@ -226,9 +224,7 @@ a {
 }
 .footer a {
 	font-size: 18px;
-	font-weight: 100;
 	margin-bottom: 20px;
-	opacity: 0.8;
 	text-decoration: none;
 	color: #454d4e;
 }
