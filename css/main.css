@@ -118,7 +118,26 @@ a {
 	text-decoration: none;
 }
 .contentRight {
-	margin-left: -50px;
+	margin-left: -52px;
+}
+.contentRight ul {
+	display: inline-block;
+	list-style: none;
+	color: white;
+	font-size: 15px;
+	font-weight: 50;
+	margin-bottom: 20px;
+	opacity: 0.2;
+	text-align: center;
+}
+#ketua {
+	margin-left: 18px;
+}
+#anggota1 {
+	margin-left: 72px;
+}
+#anggota2 {
+	margin-left: 52px;
 }
 /*----- Features -----*/
 .server {
