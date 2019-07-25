@@ -128,15 +128,6 @@ a {
 	margin-bottom: 20px;
 	text-align: center;
 }
-#ketua {
-	margin-left: 19px;
-}
-#anggota1 {
-	margin-left: 72px;
-}
-#anggota2 {
-	margin-left: 52px;
-}
 /*----- Features -----*/
 .server {
 	position: absolute;
@@ -202,6 +193,18 @@ a {
 .contentLeft i {
 	color: #1e8ef5;
 	margin-right: 5px;
+}
+.contentRight img {
+	margin-left: 5rem;
+}
+#ketua {
+	margin-left: 6.25rem;
+}
+#anggota1 {
+	margin-left: 72px;
+}
+#anggota2 {
+	margin-left: 52px;
 }
 /*----- Footer -----*/
 .footer {
