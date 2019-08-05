@@ -427,6 +427,33 @@ a {
 		width: 40px;
 		height: 15px;
 	}
+	/* 
+	--- 2nd page ----
+  */
+	.server h1 {
+		font-size: 20px;
+	}
+	.server i {
+		font-size: 20px;
+	}
+	.server p {
+		font-size: 15px;
+	}
+	.server p > br {
+		display: none;
+	}
+	.dot h1 {
+		font-size: 20px;
+	}
+	.dot i {
+		font-size: 20px;
+	}
+	.dot p {
+		font-size: 15px;
+	}
+	.dot p > br {
+		display: none;
+	}
 }
 /* 
 	##Device = Most of the Smartphones Mobiles
