@@ -397,6 +397,35 @@ a {
 @media (min-width: 360px) and (max-width: 480px) {
 	.landingWrapper {
 		width: 90%;
+		display: block;
+	}
+	.contentLeft h1 {
+		font-size: 1.2em;
+		font-weight: 500;
+	}
+	.contentLeft p {
+		font-size: 0.8em;
+	}
+	.contentLeft a {
+		font-size: 0.7em;
+		font-weight: 200;
+	}
+	.contentRight iframe {
+		width: 325px;
+		height: 183px;
+	}
+	.landingContent {
+		display: block;
+		margin: 120px auto 0 auto;
+	}
+	.contentRight {
+		margin-left: 0px;
+	}
+	.btnTwo {
+		margin-top: 10px;
+		margin-bottom: 30px;
+		width: 40px;
+		height: 15px;
 	}
 }
 /* 
