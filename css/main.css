@@ -427,6 +427,9 @@ a {
 		width: 40px;
 		height: 15px;
 	}
+	.nav > .pages {
+		display: none;
+	}
 	/* 
 	--- 2nd page ----
   */
@@ -462,11 +465,34 @@ a {
 	}
 	.groupsContent {
 		display: block;
+		margin: 50px auto 0 auto;
 	}
 	.groupsContent > .contentRight img {
 		width: 300px;
 		display: block;
-		margin: 0 auto;
+		margin: 50px 0 10px 10px;
+	}
+	.groupsContent > .contentLeft br {
+		display: none;
+	}
+	.groupsContent > .contentRight li {
+		font-size: 12px;
+	}
+	#ketua {
+		margin-left: 0.7em;
+	}
+	#anggota1 {
+		margin-left: 1em;
+	}
+	#anggota2 {
+		margin-left: 1em;
+	}
+	.footer {
+		width: 90%;
+	}
+	.footer p,
+	.footer a {
+		font-size: 12px;
 	}
 }
 /* 
