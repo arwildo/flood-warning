@@ -450,6 +450,7 @@ a {
 	}
 	.dot i {
 		font-size: 20px;
+		margin: 100px 0 0 11.5px;
 	}
 	.dot p {
 		font-size: 15px;
@@ -457,6 +458,10 @@ a {
 	.dot p > br {
 		display: none;
 	}
+	.features {
+		background-image: url(../images/bg_02mobile.png);
+	}
+
 	/* 
 	--- 3th page ----
   */
