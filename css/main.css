@@ -454,6 +454,20 @@ a {
 	.dot p > br {
 		display: none;
 	}
+	/* 
+	--- 3th page ----
+  */
+	.groupsWrapper {
+		width: 90%;
+	}
+	.groupsContent {
+		display: block;
+	}
+	.groupsContent > .contentRight img {
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
 }
 /* 
 	##Device = Most of the Smartphones Mobiles
