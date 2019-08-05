@@ -416,7 +416,7 @@ a {
 	}
 	.landingContent {
 		display: block;
-		margin: 120px auto 0 auto;
+		margin: 70px auto 0 auto;
 	}
 	.contentRight {
 		margin-left: 0px;
@@ -506,50 +506,108 @@ a {
   */
 
 @media (width: 320px) {
-	.landingB img {
-		width: 12em;
-		margin-top: 1em;
+	.landingWrapper {
+		width: 95%;
+		display: block;
 	}
-	.landing {
-		height: 80%;
+	.contentLeft h1 {
+		font-size: 1.2em;
+		font-weight: 500;
 	}
-	#typing {
-		font-size: 18px;
+	.contentLeft p {
+		font-size: 0.8em;
 	}
-	body {
-		width: 90%;
+	.contentLeft a {
+		font-size: 0.7em;
+		font-weight: 200;
 	}
-	.post1 img {
-		width: 200px;
-		margin-top: 50px;
+	.contentRight iframe {
+		width: 304px;
+		height: 171px;
 	}
-	.post2 img {
-		width: 250px;
-		margin-top: 100px;
+	.landingContent {
+		display: block;
+		margin: 70px auto 0 auto;
 	}
-	.post3 img {
-		width: 250px;
-		margin-top: 100px;
+	.contentRight {
+		margin-left: 0px;
 	}
-	.newsWr {
-		padding: 2%;
+	.btnTwo {
+		margin-top: 10px;
+		margin-bottom: 30px;
+		width: 40px;
+		height: 15px;
 	}
-	.newsWr img {
-		width: 230px;
-	}
-	.navLogo img {
-		width: 130px;
-	}
-	.copyright {
+	.nav > .pages {
 		display: none;
 	}
-	.news {
-		margin: 0%;
+	/* 
+	--- 2nd page ----
+  */
+	.server h1 {
+		font-size: 18px;
 	}
-	.newsWr h1 {
-		font-size: 23px;
+	.server i {
+		font-size: 18px;
 	}
-	.newsWr p {
-		font-size: 15px;
+	.server p {
+		font-size: 13px;
+	}
+	.server p > br {
+		display: none;
+	}
+	.dot h1 {
+		font-size: 18px;
+	}
+	.dot i {
+		font-size: 18px;
+		margin: 100px 0 0 11.5px;
+	}
+	.dot p {
+		font-size: 13px;
+	}
+	.dot p > br {
+		display: none;
+	}
+	.features {
+		background-image: url(../images/bg_02mobile.png);
+	}
+
+	/* 
+	--- 3th page ----
+  */
+	.groupsWrapper {
+		width: 90%;
+	}
+	.groupsContent {
+		display: block;
+		margin: 50px auto 0 auto;
+	}
+	.groupsContent > .contentRight img {
+		width: 300px;
+		display: block;
+		margin: 50px 0 10px -9px;
+	}
+	.groupsContent > .contentLeft br {
+		display: none;
+	}
+	.groupsContent > .contentRight li {
+		font-size: 10px;
+	}
+	#ketua {
+		margin-left: 0.3em;
+	}
+	#anggota1 {
+		margin-left: 2em;
+	}
+	#anggota2 {
+		margin-left: 1.1em;
+	}
+	.footer {
+		width: 90%;
+	}
+	.footer p,
+	.footer a {
+		font-size: 10px;
 	}
 }
