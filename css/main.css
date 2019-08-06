@@ -242,7 +242,7 @@ a {
 	##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 800px) and (max-width: 1024px) {
+/* @media (min-width: 800px) and (max-width: 1024px) {
 	.landingB img {
 		width: 12em;
 		margin-top: 5em;
@@ -272,13 +272,13 @@ a {
 	.newsWr {
 		font-size: 12px;
 	}
-}
+} */
 
 /* 
 	##Device = Ipads (portrait)
 	##Screen = B/w 768px
   */
-@media (width: 768px) {
+/* @media (width: 768px) {
 	.landingB img {
 		width: 12em;
 		margin-top: 5em;
@@ -315,14 +315,14 @@ a {
 	.newsWr {
 		font-size: 12px;
 	}
-}
+} */
 
 /* 
 	##Device = Tablets, Ipads (landscape)
 	##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	.landingB img {
 		width: 12em;
 		margin-top: 5em;
@@ -351,14 +351,14 @@ a {
 	.newsWr {
 		font-size: 12px;
 	}
-}
+} */
 
 /* 
 	##Device = Low Resolution Tablets, Mobiles
 	##Screen = B/w 481px to 767px
   */
 
-@media (min-width: 481px) and (max-width: 767px) {
+/* @media (min-width: 481px) and (max-width: 767px) {
 	.landingB img {
 		width: 12em;
 		margin-top: 3em;
@@ -387,7 +387,7 @@ a {
 	.newsWr {
 		font-size: 12px;
 	}
-}
+} */
 
 /* 
 	##Device = Most of the Smartphones Mobiles
