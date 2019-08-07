@@ -92,4 +92,6 @@ div::-webkit-scrollbar-thumb {
 	text-decoration: none;
 	color: #027bff;
 	float: left;
+	margin-top: 0.5em;
+	font-weight: 500;
 }
