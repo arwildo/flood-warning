@@ -95,3 +95,29 @@ div::-webkit-scrollbar-thumb {
 	margin-top: 0.5em;
 	font-weight: 500;
 }
+
+/*-------- Media Responsive --------*/
+
+/* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.landingRight img {
+		width: 15em;
+		margin-top: 2em;
+	}
+}
+
+/* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 490px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.landingRight img {
+		width: 15em;
+		margin-top: 2em;
+	}
+}
