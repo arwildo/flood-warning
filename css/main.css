@@ -511,11 +511,17 @@ a {
 	.contentRight {
 		margin-left: 0px;
 	}
-	.btnTwo {
-		margin-top: 10px;
-		margin-bottom: 30px;
-		width: 40px;
-		height: 15px;
+	.btn_wrap {
+		margin-bottom: 3em;
+		width: 100px;
+		height: 30px;
+	}
+	.btn_wrap > span {
+		font-size: 11px;
+		width: 100px;
+		height: 30px;
+		line-height: 32px;
+		font-weight: 100;
 	}
 	.nav > .pages {
 		display: none;
@@ -622,11 +628,17 @@ a {
 	.contentRight {
 		margin-left: 0px;
 	}
-	.btnTwo {
-		margin-top: 10px;
-		margin-bottom: 30px;
-		width: 40px;
-		height: 15px;
+	.btn_wrap {
+		margin-bottom: 3em;
+		width: 100px;
+		height: 30px;
+	}
+	.btn_wrap > span {
+		font-size: 11px;
+		width: 100px;
+		height: 30px;
+		line-height: 32px;
+		font-weight: 100;
 	}
 	.nav > .pages {
 		display: none;
