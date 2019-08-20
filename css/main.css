@@ -94,7 +94,7 @@ a {
 }
 .landingContent {
 	width: 100%;
-	margin: 150px auto 0 auto;
+	margin: 120px auto 0 auto;
 	display: flex;
 }
 .contentLeft {
@@ -103,6 +103,16 @@ a {
 .contentLeft > .ourTeam {
 	width: 20rem;
 	margin: 2rem 1rem 1rem 0;
+}
+.contentLeft > .ourTeam img {
+	width: 20rem;
+}
+.contentLeft > .ourTeam h2 {
+	text-align: left;
+	color: white;
+	opacity: 0.8;
+	font-weight: 100;
+	margin: 0.5rem 0 0.8rem 0;
 }
 .contentRight {
 	flex: 0 0 45%;
