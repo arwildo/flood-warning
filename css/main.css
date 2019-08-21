@@ -101,18 +101,19 @@ a {
 	flex: 0 0 55%;
 }
 .contentLeft > .ourTeam {
-	width: 20rem;
-	margin: 2rem 1rem 1rem 0;
+	width: 18rem;
+	margin: 3rem 1rem 1rem 0;
 }
 .contentLeft > .ourTeam img {
-	width: 20rem;
+	width: 18rem;
 }
 .contentLeft > .ourTeam h2 {
-	text-align: left;
+	text-align: center;
 	color: white;
-	opacity: 0.8;
+	font-size: 15px;
+	opacity: 0.65;
 	font-weight: 100;
-	margin: 0.5rem 0 0.8rem 0;
+	margin: 0.8rem 0 0.5rem 0;
 }
 .contentRight {
 	flex: 0 0 45%;
