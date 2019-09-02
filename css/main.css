@@ -139,18 +139,6 @@ a {
 	width: 650px;
 	height: 366px;
 }
-#arrowDown {
-	animation: bouncing 2s infinite ease-in-out;
-	bottom: 0;
-	display: block;
-	height: 50px;
-	left: 50%;
-	margin-left: -25px;
-	position: absolute;
-	width: 50px;
-	color: white;
-	opacity: 0.3;
-}
 
 /* -------- share button --------- */
 .btn_wrap > i {
