@@ -1,7 +1,7 @@
 # flood-warning
 Manado flood warning site that will automatically broadcast youtube live stream on the Monado's floodgate if the water reach a certain height.
 
-:ocean: [Flood Warning - ManadoSiaga.com](https://www.arwildo.space/flood-warning/)
+:ocean: [Flood Warning - ManadoSiaga](https://www.arwildo.space/flood-warning/)
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/arwildo/flood-warning/master/preview/flood-warning.png "Website Preview")
