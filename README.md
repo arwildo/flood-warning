@@ -11,7 +11,7 @@ Manado flood warning site that will automatically broadcast youtube live stream 
 * HTML
 * CSS
 * JavaScript
-* fullPage.Js
+* [fullPage.Js](https://github.com/alvarotrigo/fullPage.js/)
 
 ## Contributors
 
