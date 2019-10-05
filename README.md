@@ -4,7 +4,7 @@ Manado flood warning site that will automatically broadcast youtube live stream 
 :ocean: [Flood Warning - ManadoSiaga](https://www.arwildo.space/flood-warning/)
 
 ## Preview
-![alt text](https://raw.githubusercontent.com/arwildo/flood-warning/master/preview/flood-warning.png "Website Preview")
+![alt text](https://www.arwildo.space/assets/images/flood-warning.png "Website Preview")
 
 ## Built With
 
