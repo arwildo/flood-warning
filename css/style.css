@@ -50,17 +50,17 @@ html {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 34px;
 	margin-bottom: 10px;
 }
 p {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 100;
 	margin-bottom: 20px;
 	opacity: 0.8;
 }
 a {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .btnOne {
@@ -98,34 +98,21 @@ a {
 	display: flex;
 }
 .contentLeft {
-	flex: 0 0 55%;
-}
-.contentLeft > .ourTeam {
-	width: 18rem;
-	margin: 3rem 1rem 1rem 0;
-}
-.contentLeft > .ourTeam img {
-	width: 18rem;
-}
-.contentLeft > .ourTeam h2 {
-	text-align: center;
-	color: white;
-	font-size: 15px;
-	opacity: 0.65;
-	font-weight: 100;
-	margin: 0.8rem 0 0.5rem 0;
+	flex: 0 0 43%;
 }
 .contentRight {
-	flex: 0 0 45%;
+	flex: 0 0 57%;
 }
 .contentLeft h1,
 .contentLeft p,
 .contentLeft a {
 	color: white;
 	text-decoration: none;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 .contentRight {
-	margin-left: -100px;
+	margin-left: 0;
 }
 .contentRight ul {
 	display: inline-block;
@@ -140,7 +127,6 @@ a {
 	height: 366px;
 }
 
-/* -------- share button --------- */
 .btn_wrap > i {
 	opacity: 0;
 	font-size: 28px;
@@ -238,7 +224,11 @@ a {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
 /*----- Features -----*/
+.features h1 {
+	font-size: 25px;
+}
 .server {
 	position: absolute;
 	top: 130px;
@@ -265,6 +255,7 @@ a {
 .dot p {
 	display: block;
 	margin-left: 38px;
+	font-size: 16px;
 }
 .dot i {
 	color: #1e8ef5;
@@ -284,27 +275,32 @@ a {
 	margin: 150px auto 0 auto;
 	display: flex;
 }
-.contentLeft img,
-.contentLeft h1 {
+.groupsContent > .contentLeft img,
+.groupsContent > .contentLeft h1 {
 	display: inline-block;
 	vertical-align: middle;
 }
-.contentLeft img {
+.groupsContent > .contentLeft img {
 	margin-bottom: 10px;
 	width: 36px;
 }
-.groupsContent > .contentLeft p {
-	margin-left: 40px;
+.groupsContent > .contentLeft h1 {
+	font-size: 25px;
+	margin: 0;
 }
-.groupsImage {
+.groupsContent > .contentLeft p {
+	margin-left: 20px;
+	font-size: 16px;
+}
+.contentRight > .groupsImage {
 	width: 500px;
 	margin-top: 30px;
 }
-.contentLeft i {
+.groupsContent > .contentLeft i {
 	color: #1e8ef5;
 	margin-right: 5px;
 }
-.contentRight img {
+.groupsContent > .contentRight img {
 	margin-left: 5rem;
 }
 #ketua {
@@ -335,9 +331,9 @@ a {
 .pagesRight p {
 	margin-left: 25px;
 }
-.footer a {
-	font-size: 18px;
-	margin-bottom: 20px;
+.footer a, .footer p {
+	font-size: 16px;
+	margin-bottom: 10px;
 	text-decoration: none;
 	color: #454d4e;
 }
