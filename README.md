@@ -3,8 +3,10 @@ Manado flood warning site that will automatically broadcast youtube live stream 
 
 :ocean: [Flood Warning - ManadoSiaga](https://www.arwildo.space/flood-warning/)
 
+
 ## Preview
 ![alt text](https://www.arwildo.space/assets/images/flood-warning.png "Website Preview")
+
 
 ## Built With
 
@@ -13,6 +15,9 @@ Manado flood warning site that will automatically broadcast youtube live stream 
 * JavaScript
 * [fullPage.Js](https://github.com/alvarotrigo/fullPage.js/)
 
-## Contributors
 
-* **Arwildo** - *Initial work* - [arwildo.space](http://www.arwildo.space/)
+## Support
+
+If you like what you see, feel free to buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/Arwildo " target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
