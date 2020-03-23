@@ -1,6 +1,6 @@
 /*----- Global -----*/
 @font-face {
-	src: url(../font/CircularStd-Medium.ttf);
+	src: url(../fonts/CircularStd-Medium.ttf);
 	font-family: CircularStd;
 }
 * {
@@ -339,7 +339,7 @@ a {
 }
 
 /*-------- Responsive Media --------*/
-@media (min-width: 1024px) and (max-width: 1220px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
 	.contentLeft h1 {
 		font-size: 28px;
 		margin-bottom: 60px;
@@ -355,5 +355,30 @@ a {
 		width: 130px;
 		height: 35px;
 		font-size: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.contentLeft h1 {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+	p {
+		font-size: 10px;
+	}
+	.contentRight iframe {
+		width: 100%;
+		height: 100%;
+	}
+    .btn_wrap {
+		width: 128px;
+		height: 30px;
+		font-size: 15px;
+	}
+	.btn_wrap > span {
+	    font-size: 12px
+	}
+	.groups  {
+	    width: 1px;
 	}
 }
