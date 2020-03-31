@@ -69,6 +69,8 @@ a {
 	padding: 0.6em 1.75em;
 }
 
+
+
 /*----- Landing -----*/
 .nav {
 	padding-top: 3em;
@@ -225,6 +227,8 @@ a {
 	transform: scale(1);
 }
 
+
+
 /*----- Features -----*/
 .features h1 {
 	font-size: 25px;
@@ -265,6 +269,9 @@ a {
 	color: #1e8ef5;
 	margin-right: 5px;
 }
+
+
+
 /*----- Groups -----*/
 .groupsWrapper {
 	width: 88%;
@@ -312,6 +319,9 @@ a {
 #anggota2 {
 	margin-left: 3.5em;
 }
+
+
+
 /*----- Footer -----*/
 .footer {
 	width: 83%;
@@ -337,6 +347,8 @@ a {
 	text-decoration: none;
 	color: #454d4e;
 }
+
+
 
 /*-------- Responsive Media --------*/
 @media (min-width: 1025px) and (max-width: 1280px) {
