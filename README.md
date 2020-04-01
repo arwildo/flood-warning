@@ -5,7 +5,9 @@ Manado flood warning site that will automatically broadcast youtube live stream 
 
 
 ## Preview
-![alt text](https://www.arwildo.space/assets/images/flood-warning.png "Website Preview")
+<p align="center">
+  <img src="https://www.arwildo.space/assets/images/flood-warning.png?raw=true" alt="Website Preview"/>
+</p>
 
 
 ## Built With
