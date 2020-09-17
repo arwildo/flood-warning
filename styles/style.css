@@ -352,15 +352,32 @@ a {
 
 /*-------- Responsive Media --------*/
 @media (min-width: 769px) and (max-width: 1024px) {
-  .s1 .contentRight iframe {
+  .landing .contentRight iframe {
     width: 530px;
   }
-  .s1 .contentLeft h1 {
+  .landing .contentLeft h1 {
     font-size: 28px;
   }
-  .s1 .contentLeft p {
+  .landing .contentLeft p {
     font-size: 16px;
   }
+  
+  .features { 
+	  background-image: url(../images/bg_02mobile.png);
+  }
+  .server {
+    left: 36%;
+    top: 160px;
+  }
+  .dot {
+    right: 35%;
+    bottom: 17px;
+  }
+  
+  .groups .contentRight {
+    margin-left: -33px;
+  }
+
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
