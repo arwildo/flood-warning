@@ -606,3 +606,88 @@ a {
     font-size: 13px;
   }
 }
+
+@media (max-width: 320px) {
+  .nav {
+    padding-top: 1.5em;
+  }
+  .logo {
+    width: 127px;
+  }
+  .pages {
+    display: none;
+  }
+  
+  .landingWrapper {
+    position: relative;
+    width: 94%;
+  }
+  .landing .contentRight {
+    margin-top: 180px;
+  }
+  .landing .contentRight iframe {
+    width: 300px;
+    height: 180px;
+  }
+  .landing .contentLeft {
+    position: absolute;
+    margin-top: -80px;
+  }
+  .landing .contentLeft h1 {
+    font-size: 20px;
+  }
+  .landing .contentLeft p {
+    font-size: 12px;
+  }
+  .btn_wrap > span {
+    font-size: 12px;
+  }
+  
+  .features { 
+	  background-image: url(../images/bg_02mobile.png);
+  }
+  .features h1 {
+    font-size: 16px;
+  }
+  .features p {
+    font-size: 12px;
+  }
+  .server {
+    left: 9%;
+    top: 110px;
+  }
+  .dot {
+    right: 6%;
+    bottom: 24px;
+  }
+  
+  .groups .contentLeft {
+    position: absolute;
+    margin-top: -73px;
+    width: 280px;
+  }
+  .groups .contentLeft h1 {
+    font-size: 16px;
+  }
+  .groups .contentLeft p {
+    font-size: 12px;
+  }
+  .groups .contentRight {
+    margin-left: -67px;
+    display: absolute;
+    margin-top: 133px;
+  }
+  .groups .contentRight img {
+    width: 269px;
+  }
+  .groups .contentRight ul {
+    font-size: 8px;
+  }
+  #ketua {
+    margin-left: 11.5em;
+  }
+
+  .footer a, .footer p {
+    font-size: 11px;
+  }
+}
