@@ -372,9 +372,7 @@ a {
   .dot {
     right: 35%;
     bottom: 17px;
-  }
-  
-  .groups .contentRight {
+  } .groups .contentRight {
     margin-left: -33px;
   }
 
@@ -436,5 +434,90 @@ a {
   }
   #ketua {
     margin-left: 10.5em;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .nav {
+    padding-top: 2em;
+  }
+  .logo {
+    width: 127px;
+  }
+  .pages {
+    display: none;
+  }
+  
+  .landingWrapper {
+    position: relative;
+    width: 94%;
+  }
+  .landing .contentRight {
+    margin-top: 130px;
+  }
+  .landing .contentRight iframe {
+    width: 400px;
+    height: 230px;
+  }
+  .landing .contentLeft {
+    position: absolute;
+    margin-top: -109px;
+  }
+  .landing .contentLeft h1 {
+    font-size: 20px;
+  }
+  .landing .contentLeft p {
+    font-size: 12px;
+  }
+  .btn_wrap > span {
+    font-size: 12px;
+  }
+  
+  .features { 
+	  background-image: url(../images/bg_02mobile.png);
+  }
+  .features h1 {
+    font-size: 18px;
+  }
+  .features p {
+    font-size: 13px;
+  }
+  .server {
+    left: 22%;
+    top: 126px;
+  }
+  .dot {
+    right: 18%;
+    bottom: 14px;
+  }
+  
+  .groups .contentLeft {
+    position: absolute;
+    margin-top: -73px;
+    width: 350px;
+  }
+  .groups .contentLeft h1 {
+    font-size: 18px;
+  }
+  .groups .contentLeft p {
+    font-size: 13px;
+  }
+  .groups .contentRight {
+    margin-left: -49px;
+    display: absolute;
+    margin-top: 100px;
+  }
+  .groups .contentRight img {
+    width: 300px;
+  }
+  .groups .contentRight ul {
+    font-size: 9px;
+  }
+  #ketua {
+    margin-left: 10.5em;
+  }
+
+  .footer a, .footer p {
+    font-size: 14px;
   }
 }
